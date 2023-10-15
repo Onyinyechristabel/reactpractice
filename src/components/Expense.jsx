@@ -4,7 +4,7 @@ import "./Expense.css";
 import App from "../App";
 function Expense(props) {
   return (
-    <Card className="expense">
+    <Card>
       <ExpenseItem
         title={props.items[0].title}
         amount={props.items[0].amount}

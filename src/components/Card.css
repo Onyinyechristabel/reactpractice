@@ -1,11 +1,5 @@
 body {
-  background-color: blue;
+  background-color: black;
   display: flex;
   flex-direction: row;
-}
-.expense {
-  display: flex;
-}
-.classes {
-  display: flex;
 }
