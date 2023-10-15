@@ -1,0 +1,21 @@
+.expense__date {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border: 0.5rem solid white;
+  background-color: rgba(0, 0, 0, 0.903);
+  color: white;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  width: 12rem;
+  text-align: center;
+  height: 12rem;
+}
+.expense__month {
+  font-size: 2rem;
+}
+.expense__day {
+  font-size: 3rem;
+  font-weight: 500;
+}
+.expense__year {
+  font-size: 1.5rem;
+}
