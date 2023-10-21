@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9rem;
+  width: 144rem;
+}
+.cardexpense {
+  display: flex;
+  justify-content: space-between;
+  width: 120rem;
+  margin-top: 6rem;
+  background: #242424;
+  padding: 2rem;
+  border-radius: 2rem;
+}

@@ -1,11 +1,13 @@
+import React from "react";
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Card from "./components/Card";
-import ExpenseItem from "./components/ExpenseItem";
-import Expense from "./components/Expense";
-function App() {
+import Card from "./components/UI/Card";
+import ExpenseItem from "./components/Expenses/ExpenseItem";
+import Expense from "./components/Expenses/Expense";
+import NewExpense from "./components/NewExpense/NewExpense";
+const App = () => {
   const [count, setCount] = useState(0);
   const expense = [
     {
@@ -33,11 +35,13 @@ function App() {
       date: new Date(2022, 5, 4),
     },
   ];
+  const addExpenseHandler = (expense) => {};
   return (
     <div>
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expense items={expense} />
     </div>
   );
-}
+};
 
 export default App;
